@@ -16,6 +16,8 @@ import {
 
 import { ChevronRight, ChevronLeft, Menu } from "@material-ui/icons/";
 import { ListItems } from "./ListIcons";
+import UserManagement from "../UserManagement";
+
 const drawerWidth = 280;
 
 const useStyles = makeStyles((theme) => ({
@@ -139,6 +141,7 @@ export default function PersistentDrawerLeft() {
       >
         <div className={classes.drawerHeader} />
         <Typography paragraph>WELCOME TO DASHBOARD</Typography>
+        <UserManagement />
       </main>
     </div>
   );

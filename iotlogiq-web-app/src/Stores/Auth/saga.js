@@ -11,7 +11,7 @@ import {
   createRegistrationFailure,
 } from "./actions";
 import { successAlert, errorAlert } from "../Alerts/actions";
-const BACKEND_URI = "http://demo.thingsboard.io/api";
+const BACKEND_URI = "https://iotlogiq.com/api";
 
 console.log("history", history);
 //Login Saga
